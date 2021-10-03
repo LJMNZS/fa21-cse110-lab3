@@ -5,28 +5,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tactics Meeting Minutes</title>
-    <link rel="favicon" type="image/ico" href="favicon.ico"/>
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
 </head>
 
 
 <body>
     <header>
-        <div>TACTICS</div>
+        <div>Meeting Minutes Website</div>
         <nav>
           <ul>
-            <li><a href="#ingredients">CHANGE</a></li>
-            <li><a href="#steps">THIS</a></li>
-            <li><a href="#subsribe">LATER</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#av">Audio/Visual</a></li>
+            <li><a href="#form">Form</a></li>
           </ul>
         </nav>
     </header>
 
     <main>
+        <section>
+        <h1>Football Tactics Brainstorm Session</h1>
+        <h2>Minutes of meeting held to discuss <i>tactics</i></h2>
+        <h3>Held on the 2nd of October 2021</h3>
+        <img
+        src="https://d3nfwcxd527z59.cloudfront.net/content/uploads/2017/01/30091452/Tactics-board.jpg"
+        alt="tacticboard"
+      />
+        <h4>Attendance List</h4>
+        <ul>
+            <li><strong>P. Guardiola</strong></li>
+            <li>K. De Bruyne</li>
+            <li>R. Dias</li>
+            <li>G. Jesus</li>
+        </ul>
+        </section>
+        <hr>
+        <section>
+        <h2 id="agenda">Agenda</h2>
+        <h4>Unfinished business from last meeting</h4>
+        Did not buy a striker in the transfer window
+        <h4>Meeting agenda</h4>
+        <p>Discuss how to score more goals and concede less goals</p>
+        <h4>New business to talk about</h4>
+            Look at a list of possible strikers to buy in the winter transfer window <br>
+            In order of <em>preference</em>:
+            <ol>
+                <li>E. Haaland</li>
+                <li>H. Kane</li>
+                <li>L. Martinez</li>
+            </ol>
+        <h4>Miscellaneous Concerns Raised</h4>
+        <p>The manager  raised the valid concern of the team not being able to score goals without a dedicated striker in the squad</p>
+        </section>
+        <hr>
+        <section>
+        <h2 id="av">Copyright free Video and Audio</h2>
+        <video>
+            <source src="/meetingvideo.mp4" type="video/mp4">
+            Sorry, your browser doesn't support embedded videos
+        </video>
+        <figure>
+            <figcaption>Listen to this sad song:</figcaption>
+            <audio controls src="/sadsong.mp3">Your browser does not support the <code>audio</code> element</audio>
+        </figure>
+        </section>
+        <hr>
+        <section>
+        <h2 id="form">Sample forms</h2>
+        <form>
+            <fieldset>
+                <legend>Do you think there is a footballing GOAT?</legend>
+                <input type="checkbox" id="Goat" name="Goat">
+                <label for="Goat">Goat</label><br>
 
+                <input type="checkbox" id="noGoat" name="noGoat">
+                <label for="noGoat">no Goat</label><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Choose your football GOAT</legend>
+
+                <input type="radio" id="Messi" name="Messi">
+                <label for="Messi">Messi</label><br>
+
+                <input type="radio" id="CR7" name="CR7">
+                <label for="CR7">Cristiano Ronaldo</label><br>
+
+                <input type="radio" id="else" name="else">
+                <label for="else">Someone else</label><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <form>
+            <label for="name">Enter your GOAT:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <form>
+            <label for="birthday">Enter Your Birthday</label>
+            <input type="date" id="birthday" name="birthday">
+        </form>
+        <form>
+            <label for="seasonchoice">Choose the season you were born in:</label>
+            <input list="seasons" id="seasonchoice" name="seasonchoice">
+            <datalist id="seasons">
+                <option value="Winter">
+                <option value="Spring">
+                <option value="Summer">
+                <option value="Fall">
+            </datalist><br>
+            <input type="submit" value="submit"><br>
+            <label for="season-select">Choose your season again</label>
+            <select name="season-select" id="season-select">
+                <option value="">--Please choose an option--</option>
+                <option value="Winter">Winter</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Fall">Fall</option>
+            </select>
+        </form>
+        </section>
+        <hr>
     </main>
 
     <footer>
-
+        <details>
+            <summary>Details</summary>
+            This site created by <b>Luke M.</b> for CSE 110 Lab 2<br>
+        </details>
+        <details>
+            <summary>Feedback</summary>
+            <form>
+                <label for="Feedback">Give some Feedback</label><br>
+                <textarea id="Feedback" name="Feedback" rows="8" cols="33">Share your feedback...</textarea><br>
+                <button class="submit" type="button">
+                    <span>Submit feedback</span>
+                </button>
+            </form>
+        </details>
     </footer>
 </body>
 
