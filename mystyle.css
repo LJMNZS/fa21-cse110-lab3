@@ -14,7 +14,7 @@
 h2 {
     /* This is the styling for the secondary headers in the html file */
     color: brown;
-    size: 1ch;
+    size: 1em;
     text-decoration: underline;
     border-radius: 5ch;
     border-style: hidden;
@@ -32,7 +32,7 @@ h4 {
     /* Styling for fourth headers */
     color: #171;
     size: 5vh;
-    border-width: 5ch;
+    border-width: 4ch;
     border-color: hsl(60, 60, 10);
     padding-top: 1mm;
     padding-bottom: 1mm;
@@ -60,8 +60,8 @@ video {
     max-height: min-content;
     position: static;
     margin-top: 1mm;
-    margin-right: 1mm;
-    margin-bottom: 1mm;
+    margin-right: 2mm;
+    margin-bottom: 3mm;
 }
 
 button:hover {
@@ -90,3 +90,43 @@ input:active {
     grid-template-columns: auto;
     grid-auto-rows: minmax(5px, auto);
 }
+
+/* Everything below is CSS Selector for various items in the webpage */
+
+#para1 {
+    color: red;
+}
+
+details * {
+    background-color: gray;
+}
+
+a[href^="#"] {
+    background-color: gold;
+}
+
+#form, #details {
+    background-color: brown;
+}
+
+select option {
+    background-color: yellow;
+}
+
+
+div > span {
+    color: greenyellow;
+}
+
+br + label {
+    background-color: pink;
+}
+
+br ~ input {
+    background-color: rgb(221, 170, 39);
+}
+
+button.submit {
+    background-color: hotpink;
+}
+
