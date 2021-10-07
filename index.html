@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tactics Meeting Minutes</title>
     <link rel="icon" type="image/ico" href="favicon.ico"/>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        body {
+            background-color: rgb(233, 237, 240);
+        }
+    </style>
 </head>
 
 
@@ -23,7 +29,7 @@
 
     <main>
         <section>
-        <h1>Football Tactics Brainstorm Session</h1>
+        <h1 style="color: rgba(0, 195, 255, 0.719);text-align: center;">Football Tactics Brainstorm Session</h1>
         <h2>Minutes of meeting held to discuss <i>tactics</i></h2>
         <h3>Held on the 2nd of October 2021</h3>
         <img
@@ -31,7 +37,7 @@
         alt="tacticboard"
       />
         <h4>Attendance List</h4>
-        <ul>
+        <ul class="box">
             <li><strong>P. Guardiola</strong></li>
             <li>K. De Bruyne</li>
             <li>R. Dias</li>
@@ -44,7 +50,7 @@
         <h4>Unfinished business from last meeting</h4>
         Did not buy a striker in the transfer window
         <h4>Meeting agenda</h4>
-        <p>Discuss how to score more goals and concede less goals</p>
+        <p id="para1">Discuss how to score more goals and concede less goals</p>
         <h4>New business to talk about</h4>
             Look at a list of possible strikers to buy in the winter transfer window <br>
             In order of <em>preference</em>:
@@ -83,7 +89,7 @@
             </fieldset>
         </form>
         <form>
-            <fieldset>
+            <fieldset class="wrapper">
                 <legend>Choose your football GOAT</legend>
 
                 <input type="radio" id="Messi" name="Messi">
@@ -127,10 +133,14 @@
         </form>
         </section>
         <hr>
+        <div>
+            <span> Sample text that will change color <br>
+            </span>
+        </div>
     </main>
 
     <footer>
-        <details>
+        <details id="details">
             <summary>Details</summary>
             This site created by <b>Luke M.</b> for CSE 110 Lab 2<br>
         </details>
