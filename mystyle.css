@@ -1,0 +1,92 @@
+@font-face {
+    /* A font from fonts.google.com */
+    font-family: "ComicNeue";
+    src: url(ComicNeue-Regular.ttf);
+}
+
+@media only screen and (max-width: 600px) {
+    /* Makes the background aqua when the screen is small */
+    body {
+        background-color: aqua;
+    }
+}
+
+h2 {
+    /* This is the styling for the secondary headers in the html file */
+    color: brown;
+    size: 1ch;
+    text-decoration: underline;
+    border-radius: 5ch;
+    border-style: hidden;
+    padding-left: 1%;
+} 
+
+h3 {
+    /* Styling for third headers */
+    font-family: "ComicNeue", "Comic Neue Regular", serif;
+    margin: 25px 50px 75px 100px;
+    padding: 5px 5px 5px 10px;
+}
+
+h4 {
+    /* Styling for fourth headers */
+    color: #171;
+    size: 5vh;
+    border-width: 5ch;
+    border-color: hsl(60, 60, 10);
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    margin-left: 0.5%;
+}
+
+li {
+    /* Styling for list elements */
+    display: block;
+    position: sticky;
+    margin: auto;
+    padding-right: 1mm;
+}
+
+figcaption {
+    /* Styling for the audio comments */
+    display: none;
+}
+
+video {
+    /* Styling for the video */
+    height: 500px;
+    width: auto;
+    max-width: min-content;
+    max-height: min-content;
+    position: static;
+    margin-top: 1mm;
+    margin-right: 1mm;
+    margin-bottom: 1mm;
+}
+
+button:hover {
+    /* Make the button green when hovering over it */
+    color:green;
+}
+
+input:active {
+    /* Make the inputs appear blueviolet when clicking on them */
+    color: blueviolet;
+}
+
+.box {
+    /* Flexbox property */
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.wrapper {
+    /* Grid property */
+    display: grid;
+    gap: 1px;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(5px, auto);
+}
